@@ -22,6 +22,9 @@ jobs:
 
     - run: echo ${{ env.MY_VARIABLE }}
 
+    - name: Remove old build cache
+      run: rm -rf ${{ github.workspace }}/build
+
     - name: Configure CMake
       run: cmake -S . -B ${{ github.workspace }}/build -DCMAKE_BUILD_TYPE=${{ env.BUILD_TYPE }} -DUSE_STATIC_LIB=ON
 
