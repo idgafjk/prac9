@@ -65,6 +65,7 @@ void mainMenu() {
                     std::swap(currentSymbol, opponentSymbol);
                 } else {
                     std::cout << "Invalid move, try again." << std::endl;
+                    std::cout << "Zanovo." << std::endl;
                 }
             }
             break;
