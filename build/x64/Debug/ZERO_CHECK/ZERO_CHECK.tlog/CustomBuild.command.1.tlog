@@ -1,0 +1,10 @@
+^D:\PRAC8\BUILD\CMAKEFILES\3FBBD9DA2BAD7256B31AF4E2D4A9887A\GENERATE.STAMP.RULE
+setlocal
+D:\bin\cmake.exe -SD:/prac8 -BD:/prac8/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/prac8/build/TicTacToe.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

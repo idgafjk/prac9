@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/prac8/build/cmake_install.cmake",
+		"D:/prac8/build/src/cmake_install.cmake",
+		"D:/prac8/build/app/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

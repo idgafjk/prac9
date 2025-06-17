@@ -1,0 +1,4 @@
+D:/prac8/build/CMakeFiles/ALL_BUILD.dir
+D:/prac8/build/CMakeFiles/ZERO_CHECK.dir
+D:/prac8/build/src/CMakeFiles/tictactoe.dir
+D:/prac8/build/app/CMakeFiles/tictactoe_app.dir
