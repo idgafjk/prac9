@@ -192,7 +192,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 TicTacToe_BINARY_DIR:STATIC=D:/prac8/build
 
 //Value Computed by CMake
-TicTacToe_IS_TOP_LEVEL:STATIC=ON
+TicTacToe_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 TicTacToe_SOURCE_DIR:STATIC=D:/prac8
