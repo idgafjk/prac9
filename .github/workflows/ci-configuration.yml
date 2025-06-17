@@ -2,9 +2,9 @@ name: CI_LavrovVladyslav_Z-21
 
 on:
   push:
-    branches: [ "master", "choch" ]
+    branches: [ "main", "choch" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 env:
   BUILD_TYPE: Release
